@@ -1,0 +1,95 @@
+body {
+    font-family: "Code Light", Arial, sans-serif;
+    background-color: rgba(242, 242, 242, 1);
+    color: rgba(64, 66, 71, 1);
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+
+#container {
+    position: relative;
+    height: 772px;
+    width: 1002px;
+    margin: auto;
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+}
+
+#game_section {
+    border: 1px solid rgba(198, 199, 198, 1);
+    width: 1000px;
+    height: 625px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#introduction_section {
+    position: relative;
+    left: 50%;
+    width: 450px;
+    transform: translateX(-50%);
+}
+
+#introduction_section h1 {
+    width: 450px;
+}
+
+#introduction_section p {
+    width: 400px;
+    margin-left: 25px;
+}
+
+#colors_section {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 127px;
+}
+
+#colors_section ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#colors_section ul li {
+    width: 20px;
+    height: 20px;
+    float: left;
+    text-indent: -99999px;
+    border-left: 1px solid rgba(198, 199, 198, 1);
+    border-top: 1px solid rgba(198, 199, 198, 1);
+    border-bottom: 1px solid rgba(198, 199, 198, 1);
+}
+
+#colors_section ul li.last {
+    border-right: 1px solid rgba(198, 199, 198, 1);
+}
+
+#colors_section .red {
+    background-color: rgba(242, 41, 33, 1);
+}
+
+#colors_section .lighter_gray {
+    background-color: rgba(242, 242, 242, 1);
+}
+
+#colors_section .light_gray {
+    background-color: rgba(198, 199, 198, 1);
+}
+
+#colors_section .gray {
+    background-color: rgba(157, 158, 161, 1);
+}
+
+#colors_section .dark_gray {
+    background-color: rgba(64, 66, 71, 1);
+}
+
+#colors_section .darker_gray {
+    background-color: rgba(40, 40, 44, 1);
+}
